@@ -1,0 +1,35 @@
+
+<div class="container top-bar home-border">
+
+	<ul class="title-area">
+		<!-- Title Area -->
+		<li class="name has-dropdown">
+			<h1>
+			</h1>
+		</li>
+	</ul>
+
+	<section class="top-bar-section">
+		<ul class="right">
+			
+      <% if current_user %>
+        <li><%= link_to 'Home', root_url %></li>
+      <% else %>
+        <li><%= link_to 'Register', new_user_path %></li>
+      <% end %>
+
+	</section>
+</div>
+
+<header>
+	<div class="panel callout">
+		<div class="row">
+			<div class="large-2 columns">
+        <%= image_tag "monopoly.jpeg" %>
+			</div>
+			<div class="large-8 columns">
+			
+			</div>
+		</div>
+	</div>
+</header>

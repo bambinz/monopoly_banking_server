@@ -25,6 +25,8 @@ gem 'jquery-rails'
 gem 'authlogic'
 gem 'declarative_authorization'
 
+gem 'foundation-rails'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
